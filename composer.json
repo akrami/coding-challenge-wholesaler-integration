@@ -2,14 +2,16 @@
   "name": "kollex/coding-challenge-wholesaler-integration",
   "description": "kollex Coding Challenge: Wholesaler Assortment",
   "autoload": {
-    "psr-0": {
-      "kollex\\": "src/"
+    "psr-4": {
+      "Kollex\\": "src/"
     }
   },
   "require": {
-    "php": ">=7.0"
+    "php": ">=7.1",
+    "ext-json": "*"
   },
   "require-dev": {
+    "phpunit/phpunit": "^9.3"
   },
   "suggest": {
   }
